@@ -14,7 +14,7 @@ const ChoosePhotos = () => {
             </View>
             <StatusBar style="auto"/>
             <View style={styles.footerContainer}>
-                <Button label="Press me"/>
+                <Button label="Press me" theme="primary"/>
             </View>
         </View>
     );

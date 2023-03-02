@@ -3,5 +3,10 @@
     "esModuleInterop": true,
   },
   "extends": "expo/tsconfig.base",
+  "paths": {
+    "react-native": ["./node_modules/react-native"],
+    "*": ["./src/*"]
+  },
+  "baseUrl": "./"
 
 }

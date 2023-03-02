@@ -21,7 +21,7 @@ const Button: React.FC<ButtonProps> = ({label, theme}) => {
                     />
                 <Text style={[styles.buttonLabel,{color: "#25292e"}]}>{label}</Text>
                 </Pressable>
-          </View>
+            </View>
         );
     }
     return

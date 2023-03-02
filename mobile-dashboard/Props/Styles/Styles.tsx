@@ -25,11 +25,11 @@ const styles = StyleSheet.create({
       borderWidth: 1,
       padding: 10,
     },
-    container:{
-      flex:1,
-      backgroundColor: '#2529e',
-      alignItems: "center",
-      justifyContent: "center",
+    container: {
+      flex: 1,
+      backgroundColor: '#25292e',
+      alignItems: 'center',
+      justifyContent: 'center',
     },
     imgcontainer:{
       flex:1,
