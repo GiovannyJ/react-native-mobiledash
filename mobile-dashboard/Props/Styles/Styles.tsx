@@ -67,6 +67,49 @@ const styles = StyleSheet.create({
       flex: 1 / 3,
       alignItems: 'center',
     },
+  btnCircle: {
+      width: 60,
+      height: 60,
+      borderRadius: 30,
+      alignItems: 'center',
+      justifyContent: 'center',
+      backgroundColor: 'white',
+      shadowColor: "#000",
+      shadowOffset: {
+      width: 0,
+      height: 1,
+      },
+      shadowOpacity: 0.20,
+      shadowRadius: 1.41,
+      elevation: 1,
+      bottom: 28
+  },
+  btnCircleUp: {
+      width: 60,
+      height: 60,
+      borderRadius: 30,
+      alignItems: 'center',
+      justifyContent: 'center',
+      backgroundColor: '#E8E8E8',
+      bottom: 18,
+      shadowColor: "#000",
+      shadowOffset: {
+      width: 0,
+      height: 1,
+      },
+      shadowOpacity: 0.20,
+      shadowRadius: 1.41,
+      elevation: 1,
+  },
+  imgCircle: {
+      width: 30,
+      height: 30,
+      tintColor: '#48CEF6'
+  },
+  img: {
+      width: 30,
+      height: 30,
+  }
 });
 
 export default styles;

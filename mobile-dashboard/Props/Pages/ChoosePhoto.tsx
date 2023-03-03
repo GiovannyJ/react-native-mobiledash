@@ -1,10 +1,11 @@
 import { StatusBar } from "expo-status-bar";
 import { Text, View, Image } from "react-native";
 
-import styles from "./Styles/Styles";
-import Button from './components/Button'
+import styles from "../Styles/Styles";
+import Button from '../components/Button'
+import React from "react";
 
-const PlaceHolderImage = require('./img/turkey.png')
+const PlaceHolderImage = require('./../img/turkey.png')
 
 const ChoosePhotos = () => {
     return(

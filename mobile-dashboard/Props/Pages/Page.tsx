@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Text, Image } from 'react-native';
 import { Button, Card } from 'react-native-ui-lib';
-import styles from './Styles/Styles'
+import styles from '../Styles/Styles'
 
 interface PageProps {
   title: string;
@@ -13,7 +13,7 @@ const Page: React.FC<PageProps> = ({ title }) => {
   };
 
   return (
-    <View style={styles.center}>
+    <View style={[styles.center, {backgroundColor: "#25292e"}]}>
       <Card containerStyle={{ marginBottom: 20 }}>
         <Image
           source={{ uri: 'https://picsum.photos/200/300' }}

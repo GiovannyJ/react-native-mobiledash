@@ -1,6 +1,7 @@
 import { View, Pressable, Text } from 'react-native';
 import styles from '../Styles/Styles';
 import FontAwesome from "@expo/vector-icons/FontAwesome"
+import React from 'react';
 
 interface ButtonProps{
     label: string;
